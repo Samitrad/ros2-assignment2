@@ -1,7 +1,0 @@
-{
-  "package_name": "custom_interfaces",
-  "non_idl_tuples": [
-    "/home/sami/Documents/ros2_assignment6/src:interfaces/srv/CheckStock.srv",
-    "/home/sami/Documents/ros2_assignment6/src:interfaces/action/DeliverItem.action"
-  ]
-}
