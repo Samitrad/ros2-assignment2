@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sami/assignment2-ros2/src/interfaces
+CMAKE_SOURCE_DIR = /home/sami/assignment2-ros2/ros2-assignment2/src/interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sami/assignment2-ros2/build/interfaces
+CMAKE_BINARY_DIR = /home/sami/assignment2-ros2/ros2-assignment2/build/interfaces
 
 # Utility rule file for interfaces.
 
@@ -66,8 +66,8 @@ include CMakeFiles/interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/interfaces.dir/progress.make
 
-CMakeFiles/interfaces: /home/sami/assignment2-ros2/src/interfaces/action/DeliverItem.action
-CMakeFiles/interfaces: /home/sami/assignment2-ros2/src/interfaces/srv/CheckStock.srv
+CMakeFiles/interfaces: /home/sami/assignment2-ros2/ros2-assignment2/src/interfaces/action/DeliverItem.action
+CMakeFiles/interfaces: /home/sami/assignment2-ros2/ros2-assignment2/src/interfaces/srv/CheckStock.srv
 CMakeFiles/interfaces: rosidl_cmake/srv/CheckStock_Request.msg
 CMakeFiles/interfaces: rosidl_cmake/srv/CheckStock_Response.msg
 CMakeFiles/interfaces: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
@@ -88,6 +88,6 @@ CMakeFiles/interfaces.dir/clean:
 .PHONY : CMakeFiles/interfaces.dir/clean
 
 CMakeFiles/interfaces.dir/depend:
-	cd /home/sami/assignment2-ros2/build/interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sami/assignment2-ros2/src/interfaces /home/sami/assignment2-ros2/src/interfaces /home/sami/assignment2-ros2/build/interfaces /home/sami/assignment2-ros2/build/interfaces /home/sami/assignment2-ros2/build/interfaces/CMakeFiles/interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sami/assignment2-ros2/ros2-assignment2/build/interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sami/assignment2-ros2/ros2-assignment2/src/interfaces /home/sami/assignment2-ros2/ros2-assignment2/src/interfaces /home/sami/assignment2-ros2/ros2-assignment2/build/interfaces /home/sami/assignment2-ros2/ros2-assignment2/build/interfaces /home/sami/assignment2-ros2/ros2-assignment2/build/interfaces/CMakeFiles/interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/interfaces.dir/depend
 

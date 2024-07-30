@@ -7,7 +7,7 @@ class StockCheckerServiceServer(Node):
     def __init__(self):
         super().__init__('stock_checker_service_server')
         # Sample stock levels for testing
-        self.stock_levels = {'book': 10, 'toy': 20, 'game': 5}  
+        self.stock_levels = {'book': 10, 'pen': 20, 'game': 5}  
         self.service_ = self.create_service(CheckStock, 'check_stock', self.check_stock_callback)
         self.get_logger().info('StockCheckerServiceServer initialized.')
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sami/assignment2-ros2/src/interfaces
+CMAKE_SOURCE_DIR = /home/sami/assignment2-ros2/ros2-assignment2/src/interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sami/assignment2-ros2/build/interfaces
+CMAKE_BINARY_DIR = /home/sami/assignment2-ros2/ros2-assignment2/build/interfaces
 
 # Include any dependencies generated for this target.
 include CMakeFiles/interfaces__rosidl_generator_c.dir/depend.make
@@ -91,8 +91,8 @@ rosidl_generator_c/interfaces/action/deliver_item.h: /opt/ros/humble/share/actio
 rosidl_generator_c/interfaces/action/deliver_item.h: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_c/interfaces/action/deliver_item.h: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_c/interfaces/action/deliver_item.h: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sami/assignment2-ros2/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/sami/assignment2-ros2/build/interfaces/rosidl_generator_c__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sami/assignment2-ros2/ros2-assignment2/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/sami/assignment2-ros2/ros2-assignment2/build/interfaces/rosidl_generator_c__arguments.json
 
 rosidl_generator_c/interfaces/action/detail/deliver_item__functions.h: rosidl_generator_c/interfaces/action/deliver_item.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaces/action/detail/deliver_item__functions.h
@@ -124,30 +124,30 @@ rosidl_generator_c/interfaces/srv/detail/check_stock__functions.c: rosidl_genera
 CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/deliver_item__functions.c.o: CMakeFiles/interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/deliver_item__functions.c.o: rosidl_generator_c/interfaces/action/detail/deliver_item__functions.c
 CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/deliver_item__functions.c.o: CMakeFiles/interfaces__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sami/assignment2-ros2/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/deliver_item__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/deliver_item__functions.c.o -MF CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/deliver_item__functions.c.o.d -o CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/deliver_item__functions.c.o -c /home/sami/assignment2-ros2/build/interfaces/rosidl_generator_c/interfaces/action/detail/deliver_item__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sami/assignment2-ros2/ros2-assignment2/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/deliver_item__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/deliver_item__functions.c.o -MF CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/deliver_item__functions.c.o.d -o CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/deliver_item__functions.c.o -c /home/sami/assignment2-ros2/ros2-assignment2/build/interfaces/rosidl_generator_c/interfaces/action/detail/deliver_item__functions.c
 
 CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/deliver_item__functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/deliver_item__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sami/assignment2-ros2/build/interfaces/rosidl_generator_c/interfaces/action/detail/deliver_item__functions.c > CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/deliver_item__functions.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sami/assignment2-ros2/ros2-assignment2/build/interfaces/rosidl_generator_c/interfaces/action/detail/deliver_item__functions.c > CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/deliver_item__functions.c.i
 
 CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/deliver_item__functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/deliver_item__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sami/assignment2-ros2/build/interfaces/rosidl_generator_c/interfaces/action/detail/deliver_item__functions.c -o CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/deliver_item__functions.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sami/assignment2-ros2/ros2-assignment2/build/interfaces/rosidl_generator_c/interfaces/action/detail/deliver_item__functions.c -o CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/deliver_item__functions.c.s
 
 CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/check_stock__functions.c.o: CMakeFiles/interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/check_stock__functions.c.o: rosidl_generator_c/interfaces/srv/detail/check_stock__functions.c
 CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/check_stock__functions.c.o: CMakeFiles/interfaces__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sami/assignment2-ros2/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/check_stock__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/check_stock__functions.c.o -MF CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/check_stock__functions.c.o.d -o CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/check_stock__functions.c.o -c /home/sami/assignment2-ros2/build/interfaces/rosidl_generator_c/interfaces/srv/detail/check_stock__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sami/assignment2-ros2/ros2-assignment2/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/check_stock__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/check_stock__functions.c.o -MF CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/check_stock__functions.c.o.d -o CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/check_stock__functions.c.o -c /home/sami/assignment2-ros2/ros2-assignment2/build/interfaces/rosidl_generator_c/interfaces/srv/detail/check_stock__functions.c
 
 CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/check_stock__functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/check_stock__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sami/assignment2-ros2/build/interfaces/rosidl_generator_c/interfaces/srv/detail/check_stock__functions.c > CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/check_stock__functions.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sami/assignment2-ros2/ros2-assignment2/build/interfaces/rosidl_generator_c/interfaces/srv/detail/check_stock__functions.c > CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/check_stock__functions.c.i
 
 CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/check_stock__functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/check_stock__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sami/assignment2-ros2/build/interfaces/rosidl_generator_c/interfaces/srv/detail/check_stock__functions.c -o CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/check_stock__functions.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sami/assignment2-ros2/ros2-assignment2/build/interfaces/rosidl_generator_c/interfaces/srv/detail/check_stock__functions.c -o CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/check_stock__functions.c.s
 
 # Object files for target interfaces__rosidl_generator_c
 interfaces__rosidl_generator_c_OBJECTS = \
@@ -166,7 +166,7 @@ libinterfaces__rosidl_generator_c.so: /opt/ros/humble/lib/libunique_identifier_m
 libinterfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libinterfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libinterfaces__rosidl_generator_c.so: CMakeFiles/interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sami/assignment2-ros2/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libinterfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sami/assignment2-ros2/ros2-assignment2/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libinterfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -187,6 +187,6 @@ CMakeFiles/interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/interfa
 CMakeFiles/interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaces/srv/detail/check_stock__functions.h
 CMakeFiles/interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaces/srv/detail/check_stock__struct.h
 CMakeFiles/interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaces/srv/detail/check_stock__type_support.h
-	cd /home/sami/assignment2-ros2/build/interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sami/assignment2-ros2/src/interfaces /home/sami/assignment2-ros2/src/interfaces /home/sami/assignment2-ros2/build/interfaces /home/sami/assignment2-ros2/build/interfaces /home/sami/assignment2-ros2/build/interfaces/CMakeFiles/interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sami/assignment2-ros2/ros2-assignment2/build/interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sami/assignment2-ros2/ros2-assignment2/src/interfaces /home/sami/assignment2-ros2/ros2-assignment2/src/interfaces /home/sami/assignment2-ros2/ros2-assignment2/build/interfaces /home/sami/assignment2-ros2/ros2-assignment2/build/interfaces /home/sami/assignment2-ros2/ros2-assignment2/build/interfaces/CMakeFiles/interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/interfaces__rosidl_generator_c.dir/depend
 

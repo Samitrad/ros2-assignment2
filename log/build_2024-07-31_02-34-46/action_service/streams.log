@@ -1,0 +1,49 @@
+[0.384s] Invoking command in '/home/sami/assignment2-ros2/ros2-assignment2/src/action_service': PYTHONPATH=/home/sami/assignment2-ros2/ros2-assignment2/build/action_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sami/assignment2-ros2/ros2-assignment2/install/action_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/action_service build --build-base /home/sami/assignment2-ros2/ros2-assignment2/build/action_service/build install --record /home/sami/assignment2-ros2/ros2-assignment2/build/action_service/install.log --single-version-externally-managed install_data
+[0.572s] running egg_info
+[0.573s] creating ../../build/action_service/action_service.egg-info
+[0.573s] writing ../../build/action_service/action_service.egg-info/PKG-INFO
+[0.573s] writing dependency_links to ../../build/action_service/action_service.egg-info/dependency_links.txt
+[0.574s] writing entry points to ../../build/action_service/action_service.egg-info/entry_points.txt
+[0.574s] writing requirements to ../../build/action_service/action_service.egg-info/requires.txt
+[0.574s] writing top-level names to ../../build/action_service/action_service.egg-info/top_level.txt
+[0.574s] writing manifest file '../../build/action_service/action_service.egg-info/SOURCES.txt'
+[0.576s] reading manifest file '../../build/action_service/action_service.egg-info/SOURCES.txt'
+[0.577s] writing manifest file '../../build/action_service/action_service.egg-info/SOURCES.txt'
+[0.577s] running build
+[0.577s] running build_py
+[0.577s] creating /home/sami/assignment2-ros2/ros2-assignment2/build/action_service/build
+[0.577s] creating /home/sami/assignment2-ros2/ros2-assignment2/build/action_service/build/lib
+[0.578s] creating /home/sami/assignment2-ros2/ros2-assignment2/build/action_service/build/lib/action_service
+[0.578s] copying action_service/stock_checker.py -> /home/sami/assignment2-ros2/ros2-assignment2/build/action_service/build/lib/action_service
+[0.579s] copying action_service/__init__.py -> /home/sami/assignment2-ros2/ros2-assignment2/build/action_service/build/lib/action_service
+[0.579s] copying action_service/handle_items.py -> /home/sami/assignment2-ros2/ros2-assignment2/build/action_service/build/lib/action_service
+[0.579s] copying action_service/Stock_Checker_Client.py -> /home/sami/assignment2-ros2/ros2-assignment2/build/action_service/build/lib/action_service
+[0.579s] copying action_service/Delivery_Action_Client.py -> /home/sami/assignment2-ros2/ros2-assignment2/build/action_service/build/lib/action_service
+[0.579s] running install
+[0.579s] running install_lib
+[0.580s] creating /home/sami/assignment2-ros2/ros2-assignment2/install/action_service/lib/python3.10/site-packages/action_service
+[0.580s] copying /home/sami/assignment2-ros2/ros2-assignment2/build/action_service/build/lib/action_service/stock_checker.py -> /home/sami/assignment2-ros2/ros2-assignment2/install/action_service/lib/python3.10/site-packages/action_service
+[0.580s] copying /home/sami/assignment2-ros2/ros2-assignment2/build/action_service/build/lib/action_service/__init__.py -> /home/sami/assignment2-ros2/ros2-assignment2/install/action_service/lib/python3.10/site-packages/action_service
+[0.580s] copying /home/sami/assignment2-ros2/ros2-assignment2/build/action_service/build/lib/action_service/handle_items.py -> /home/sami/assignment2-ros2/ros2-assignment2/install/action_service/lib/python3.10/site-packages/action_service
+[0.580s] copying /home/sami/assignment2-ros2/ros2-assignment2/build/action_service/build/lib/action_service/Stock_Checker_Client.py -> /home/sami/assignment2-ros2/ros2-assignment2/install/action_service/lib/python3.10/site-packages/action_service
+[0.580s] copying /home/sami/assignment2-ros2/ros2-assignment2/build/action_service/build/lib/action_service/Delivery_Action_Client.py -> /home/sami/assignment2-ros2/ros2-assignment2/install/action_service/lib/python3.10/site-packages/action_service
+[0.581s] byte-compiling /home/sami/assignment2-ros2/ros2-assignment2/install/action_service/lib/python3.10/site-packages/action_service/stock_checker.py to stock_checker.cpython-310.pyc
+[0.581s] byte-compiling /home/sami/assignment2-ros2/ros2-assignment2/install/action_service/lib/python3.10/site-packages/action_service/__init__.py to __init__.cpython-310.pyc
+[0.581s] byte-compiling /home/sami/assignment2-ros2/ros2-assignment2/install/action_service/lib/python3.10/site-packages/action_service/handle_items.py to handle_items.cpython-310.pyc
+[0.582s] byte-compiling /home/sami/assignment2-ros2/ros2-assignment2/install/action_service/lib/python3.10/site-packages/action_service/Stock_Checker_Client.py to Stock_Checker_Client.cpython-310.pyc
+[0.582s] byte-compiling /home/sami/assignment2-ros2/ros2-assignment2/install/action_service/lib/python3.10/site-packages/action_service/Delivery_Action_Client.py to Delivery_Action_Client.cpython-310.pyc
+[0.583s] running install_data
+[0.583s] creating /home/sami/assignment2-ros2/ros2-assignment2/install/action_service/share/ament_index
+[0.583s] creating /home/sami/assignment2-ros2/ros2-assignment2/install/action_service/share/ament_index/resource_index
+[0.583s] creating /home/sami/assignment2-ros2/ros2-assignment2/install/action_service/share/ament_index/resource_index/packages
+[0.583s] copying resource/action_service -> /home/sami/assignment2-ros2/ros2-assignment2/install/action_service/share/ament_index/resource_index/packages
+[0.583s] copying package.xml -> /home/sami/assignment2-ros2/ros2-assignment2/install/action_service/share/action_service
+[0.583s] running install_egg_info
+[0.586s] Copying ../../build/action_service/action_service.egg-info to /home/sami/assignment2-ros2/ros2-assignment2/install/action_service/lib/python3.10/site-packages/action_service-0.0.0-py3.10.egg-info
+[0.586s] running install_scripts
+[0.603s] Installing handle_items script to /home/sami/assignment2-ros2/ros2-assignment2/install/action_service/lib/action_service
+[0.604s] Installing item_delivery_action_client script to /home/sami/assignment2-ros2/ros2-assignment2/install/action_service/lib/action_service
+[0.604s] Installing stock_checker_service_client script to /home/sami/assignment2-ros2/ros2-assignment2/install/action_service/lib/action_service
+[0.604s] Installing stock_checker_service_server script to /home/sami/assignment2-ros2/ros2-assignment2/install/action_service/lib/action_service
+[0.604s] writing list of installed files to '/home/sami/assignment2-ros2/ros2-assignment2/build/action_service/install.log'
+[0.631s] Invoked command in '/home/sami/assignment2-ros2/ros2-assignment2/src/action_service' returned '0': PYTHONPATH=/home/sami/assignment2-ros2/ros2-assignment2/build/action_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sami/assignment2-ros2/ros2-assignment2/install/action_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/action_service build --build-base /home/sami/assignment2-ros2/ros2-assignment2/build/action_service/build install --record /home/sami/assignment2-ros2/ros2-assignment2/build/action_service/install.log --single-version-externally-managed install_data

@@ -1,2 +1,2 @@
-/home/sami/assignment2-ros2/build/interfaces/rosidl_adapter/interfaces:action/DeliverItem.idl
-/home/sami/assignment2-ros2/build/interfaces/rosidl_adapter/interfaces:srv/CheckStock.idl
+/home/sami/assignment2-ros2/ros2-assignment2/build/interfaces/rosidl_adapter/interfaces:action/DeliverItem.idl
+/home/sami/assignment2-ros2/ros2-assignment2/build/interfaces/rosidl_adapter/interfaces:srv/CheckStock.idl

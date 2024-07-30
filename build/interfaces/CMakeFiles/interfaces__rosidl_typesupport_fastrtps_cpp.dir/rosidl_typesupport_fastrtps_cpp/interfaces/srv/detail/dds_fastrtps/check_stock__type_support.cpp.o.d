@@ -1,12 +1,12 @@
 CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/check_stock__type_support.cpp.o: \
- /home/sami/assignment2-ros2/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/check_stock__type_support.cpp \
+ /home/sami/assignment2-ros2/ros2-assignment2/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/check_stock__type_support.cpp \
  /usr/include/stdc-predef.h \
- /home/sami/assignment2-ros2/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/check_stock__rosidl_typesupport_fastrtps_cpp.hpp \
+ /home/sami/assignment2-ros2/ros2-assignment2/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/check_stock__rosidl_typesupport_fastrtps_cpp.hpp \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
- /home/sami/assignment2-ros2/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h \
- /home/sami/assignment2-ros2/build/interfaces/rosidl_generator_cpp/interfaces/srv/detail/check_stock__struct.hpp \
+ /home/sami/assignment2-ros2/ros2-assignment2/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h \
+ /home/sami/assignment2-ros2/ros2-assignment2/build/interfaces/rosidl_generator_cpp/interfaces/srv/detail/check_stock__struct.hpp \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

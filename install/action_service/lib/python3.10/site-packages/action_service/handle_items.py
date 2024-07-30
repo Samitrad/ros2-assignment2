@@ -28,6 +28,7 @@ class ItemDeliveryActionServer(Node):
         else:
             result.success = True
             result.message = f'Successfully delivered {quantity} {item_name}(s).'
+            quantity -=1
             goal_handle.succeed()  # Complete the goal successfully
         
         self.get_logger().info(result.message)
