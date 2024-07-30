@@ -1,0 +1,261 @@
+[0.000000] (-) TimerEvent: {}
+[0.000280] (action_service) JobQueued: {'identifier': 'action_service', 'dependencies': OrderedDict()}
+[0.000303] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.000316] (action_service) JobStarted: {'identifier': 'action_service'}
+[0.005397] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.099626] (-) TimerEvent: {}
+[0.177699] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.185176] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.185275] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sami/assignment2-ros2/build/interfaces', '--', '-j8', '-l8'], 'cwd': '/home/sami/assignment2-ros2/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sami'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sami'), ('OLDPWD', '/home/sami'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2956'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sami'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sami'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sami/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sami-ThinkBook-15-G2-ITL:@/tmp/.ICE-unix/2928,unix/sami-ThinkBook-15-G2-ITL:/tmp/.ICE-unix/2928'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5cdcda76_9cc5_46e4_8a4f_eb9cccdadfff'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4WWVR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sami/assignment2-ros2/build/interfaces'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.199707] (-) TimerEvent: {}
+[0.210621] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299827] (-) TimerEvent: {}
+[0.308106] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.310621] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.313501] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.342093] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399934] (-) TimerEvent: {}
+[0.409426] (action_service) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/action_service', 'build', '--build-base', '/home/sami/assignment2-ros2/build/action_service/build', 'install', '--record', '/home/sami/assignment2-ros2/build/action_service/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sami/assignment2-ros2/src/action_service', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sami', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sami', 'OLDPWD': '/home/sami', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '2956', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sami', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sami', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/sami/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sami-ThinkBook-15-G2-ITL:@/tmp/.ICE-unix/2928,unix/sami-ThinkBook-15-G2-ITL:/tmp/.ICE-unix/2928', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5cdcda76_9cc5_46e4_8a4f_eb9cccdadfff', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4WWVR2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.119', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sami/assignment2-ros2/build/action_service', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sami/assignment2-ros2/build/action_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sami/assignment2-ros2/install/action_service/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.500039] (-) TimerEvent: {}
+[0.565613] (action_service) StdoutLine: {'line': b'running egg_info\n'}
+[0.566160] (action_service) StdoutLine: {'line': b'writing ../../build/action_service/action_service.egg-info/PKG-INFO\n'}
+[0.566354] (action_service) StdoutLine: {'line': b'writing dependency_links to ../../build/action_service/action_service.egg-info/dependency_links.txt\n'}
+[0.566441] (action_service) StdoutLine: {'line': b'writing entry points to ../../build/action_service/action_service.egg-info/entry_points.txt\n'}
+[0.566493] (action_service) StdoutLine: {'line': b'writing requirements to ../../build/action_service/action_service.egg-info/requires.txt\n'}
+[0.566545] (action_service) StdoutLine: {'line': b'writing top-level names to ../../build/action_service/action_service.egg-info/top_level.txt\n'}
+[0.567827] (action_service) StdoutLine: {'line': b"reading manifest file '../../build/action_service/action_service.egg-info/SOURCES.txt'\n"}
+[0.568465] (action_service) StdoutLine: {'line': b"writing manifest file '../../build/action_service/action_service.egg-info/SOURCES.txt'\n"}
+[0.568529] (action_service) StdoutLine: {'line': b'running build\n'}
+[0.568567] (action_service) StdoutLine: {'line': b'running build_py\n'}
+[0.569166] (action_service) StdoutLine: {'line': b'running install\n'}
+[0.569557] (action_service) StdoutLine: {'line': b'running install_lib\n'}
+[0.570715] (action_service) StdoutLine: {'line': b'running install_data\n'}
+[0.571123] (action_service) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.572321] (action_service) StdoutLine: {'line': b"removing '/home/sami/assignment2-ros2/install/action_service/lib/python3.10/site-packages/action_service-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.572521] (action_service) StdoutLine: {'line': b'Copying ../../build/action_service/action_service.egg-info to /home/sami/assignment2-ros2/install/action_service/lib/python3.10/site-packages/action_service-0.0.0-py3.10.egg-info\n'}
+[0.573112] (action_service) StdoutLine: {'line': b'running install_scripts\n'}
+[0.587402] (action_service) StdoutLine: {'line': b'Installing handle_items script to /home/sami/assignment2-ros2/install/action_service/lib/action_service\n'}
+[0.587593] (action_service) StdoutLine: {'line': b'Installing item_delivery_action_client script to /home/sami/assignment2-ros2/install/action_service/lib/action_service\n'}
+[0.587668] (action_service) StdoutLine: {'line': b'Installing stock_checker_service_client script to /home/sami/assignment2-ros2/install/action_service/lib/action_service\n'}
+[0.587737] (action_service) StdoutLine: {'line': b'Installing stock_checker_service_server script to /home/sami/assignment2-ros2/install/action_service/lib/action_service\n'}
+[0.587978] (action_service) StdoutLine: {'line': b"writing list of installed files to '/home/sami/assignment2-ros2/build/action_service/install.log'\n"}
+[0.600131] (-) TimerEvent: {}
+[0.607298] (action_service) CommandEnded: {'returncode': 0}
+[0.613853] (action_service) JobEnded: {'identifier': 'action_service', 'rc': 0}
+[0.618660] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.700210] (-) TimerEvent: {}
+[0.746713] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.800297] (-) TimerEvent: {}
+[0.900523] (-) TimerEvent: {}
+[0.907897] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.923182] (interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.938625] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.938814] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.938865] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.950890] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.963194] (interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.964091] (interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.966274] (interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.000603] (-) TimerEvent: {}
+[1.002780] (interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.004485] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/sami/assignment2-ros2/build/interfaces\n'}
+[1.022349] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_generator_c\x1b[0m\n'}
+[1.028905] (interfaces) StdoutLine: {'line': b'[  2%] Built target interfaces__cpp\n'}
+[1.030020] (interfaces) StdoutLine: {'line': b'[ 12%] Built target interfaces__rosidl_generator_c\n'}
+[1.039091] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.039349] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.039431] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.039790] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.039910] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.040091] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[1.040285] (interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_interfaces\n'}
+[1.050537] (interfaces) StdoutLine: {'line': b'[ 33%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[1.050839] (interfaces) StdoutLine: {'line': b'[ 33%] Built target interfaces__rosidl_typesupport_c\n'}
+[1.050958] (interfaces) StdoutLine: {'line': b'[ 53%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[1.051063] (interfaces) StdoutLine: {'line': b'[ 53%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.051441] (interfaces) StdoutLine: {'line': b'[ 64%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.052042] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.065188] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces\n'}
+[1.079695] (interfaces) StdoutLine: {'line': b'[ 76%] Built target interfaces__py\n'}
+[1.087338] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_generator_py\x1b[0m\n'}
+[1.096098] (interfaces) StdoutLine: {'line': b'[ 84%] Built target interfaces__rosidl_generator_py\n'}
+[1.100704] (-) TimerEvent: {}
+[1.103558] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.103760] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.103832] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.112345] (interfaces) StdoutLine: {'line': b'[ 89%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.114004] (interfaces) StdoutLine: {'line': b'[ 94%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.114141] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[1.200779] (-) TimerEvent: {}
+[1.204832] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.205314] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[1.205462] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[1.205634] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[1.207389] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[1.207894] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[1.225296] (interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[1.232969] (interfaces) CommandEnded: {'returncode': 0}
+[1.279617] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[1.285045] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sami/assignment2-ros2/build/interfaces'], 'cwd': '/home/sami/assignment2-ros2/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sami'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sami'), ('OLDPWD', '/home/sami'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2956'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sami'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sami'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sami/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sami-ThinkBook-15-G2-ITL:@/tmp/.ICE-unix/2928,unix/sami-ThinkBook-15-G2-ITL:/tmp/.ICE-unix/2928'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5cdcda76_9cc5_46e4_8a4f_eb9cccdadfff'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4WWVR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sami/assignment2-ros2/build/interfaces'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.290843] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.291020] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[1.291272] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces\n'}
+[1.291410] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/srv\n'}
+[1.291560] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/srv/check_stock.h\n'}
+[1.291628] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[1.291712] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/check_stock__functions.c\n'}
+[1.291801] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/check_stock__type_support.h\n'}
+[1.291844] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/check_stock__functions.h\n'}
+[1.291882] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/check_stock__struct.h\n'}
+[1.291945] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/action\n'}
+[1.291999] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/action/deliver_item.h\n'}
+[1.292035] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[1.292112] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/action/detail/deliver_item__functions.h\n'}
+[1.292191] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/action/detail/deliver_item__type_support.h\n'}
+[1.292227] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/action/detail/deliver_item__functions.c\n'}
+[1.292270] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/action/detail/deliver_item__struct.h\n'}
+[1.292336] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/msg\n'}
+[1.292373] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.292582] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[1.292663] (interfaces) StdoutLine: {'line': b'-- Installing: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[1.293748] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[1.293870] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces\n'}
+[1.293959] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/srv\n'}
+[1.294060] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[1.294137] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/check_stock__rosidl_typesupport_fastrtps_c.h\n'}
+[1.294179] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/action\n'}
+[1.294215] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[1.294258] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/action/detail/deliver_item__rosidl_typesupport_fastrtps_c.h\n'}
+[1.294299] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/msg\n'}
+[1.294339] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.294539] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.294671] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces\n'}
+[1.294751] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/srv\n'}
+[1.294837] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[1.294933] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/check_stock__rosidl_typesupport_introspection_c.h\n'}
+[1.294984] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/check_stock__type_support.c\n'}
+[1.295021] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/action\n'}
+[1.295064] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[1.295101] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/action/detail/deliver_item__type_support.c\n'}
+[1.295141] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/action/detail/deliver_item__rosidl_typesupport_introspection_c.h\n'}
+[1.295191] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/msg\n'}
+[1.295226] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.295365] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[1.295786] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[1.295903] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces\n'}
+[1.295984] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/srv\n'}
+[1.296077] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[1.296168] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/check_stock__struct.hpp\n'}
+[1.296259] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/check_stock__traits.hpp\n'}
+[1.296352] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/check_stock__builder.hpp\n'}
+[1.296434] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/srv/check_stock.hpp\n'}
+[1.296500] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/action\n'}
+[1.296567] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[1.296604] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/action/detail/deliver_item__builder.hpp\n'}
+[1.296649] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/action/detail/deliver_item__traits.hpp\n'}
+[1.296685] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/action/detail/deliver_item__struct.hpp\n'}
+[1.296722] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/action/deliver_item.hpp\n'}
+[1.296769] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces\n'}
+[1.296805] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/srv\n'}
+[1.296844] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[1.296902] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/dds_fastrtps\n'}
+[1.296982] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/check_stock__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.297044] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/action\n'}
+[1.297134] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[1.297212] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/action/detail/deliver_item__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.297376] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/action/detail/dds_fastrtps\n'}
+[1.297427] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/msg\n'}
+[1.297469] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.297504] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.297556] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces\n'}
+[1.297592] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/srv\n'}
+[1.297626] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[1.297679] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/check_stock__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.297742] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/check_stock__type_support.cpp\n'}
+[1.297825] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/action\n'}
+[1.297883] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[1.297921] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/action/detail/deliver_item__type_support.cpp\n'}
+[1.297962] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/include/interfaces/interfaces/action/detail/deliver_item__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.298002] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[1.298238] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[1.298353] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[1.298441] (interfaces) StdoutLine: {'line': b'-- Installing: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[1.298951] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info\n'}
+[1.299043] (interfaces) StdoutLine: {'line': b'-- Installing: /home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.299140] (interfaces) StdoutLine: {'line': b'-- Installing: /home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.299228] (interfaces) StdoutLine: {'line': b'-- Installing: /home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.299319] (interfaces) StdoutLine: {'line': b'-- Installing: /home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.299437] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces\n'}
+[1.299554] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv\n'}
+[1.299704] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_check_stock_s.c\n'}
+[1.299805] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py\n'}
+[1.299888] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_check_stock.py\n'}
+[1.299979] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.300060] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.300124] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[1.300194] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action\n'}
+[1.300250] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/_deliver_item.py\n'}
+[1.300303] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/_deliver_item_s.c\n'}
+[1.300358] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/__init__.py\n'}
+[1.300416] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.300481] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.300533] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.300587] (interfaces) StdoutLine: {'line': b'-- Installing: /home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py\n'}
+[1.300637] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so\n'}
+[1.300832] (-) TimerEvent: {}
+[1.321550] (interfaces) StdoutLine: {'line': b"Listing '/home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...\n"}
+[1.321715] (interfaces) StdoutLine: {'line': b"Compiling '/home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py'...\n"}
+[1.321797] (interfaces) StdoutLine: {'line': b"Listing '/home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action'...\n"}
+[1.321860] (interfaces) StdoutLine: {'line': b"Listing '/home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv'...\n"}
+[1.325035] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.325513] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.326045] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.326548] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/lib/libinterfaces__rosidl_generator_py.so\n'}
+[1.326648] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/action/DeliverItem.idl\n'}
+[1.326741] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/srv/CheckStock.idl\n'}
+[1.326799] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/action/DeliverItem.action\n'}
+[1.326842] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/srv/CheckStock.srv\n'}
+[1.326895] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/srv/CheckStock_Request.msg\n'}
+[1.326948] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/srv/CheckStock_Response.msg\n'}
+[1.327010] (interfaces) StdoutLine: {'line': b'-- Installing: /home/sami/assignment2-ros2/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[1.327498] (interfaces) StdoutLine: {'line': b'-- Installing: /home/sami/assignment2-ros2/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[1.327578] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[1.327637] (interfaces) StdoutLine: {'line': b'-- Installing: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[1.327688] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/environment/path.sh\n'}
+[1.327740] (interfaces) StdoutLine: {'line': b'-- Installing: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[1.327790] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/local_setup.bash\n'}
+[1.327846] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/local_setup.sh\n'}
+[1.327885] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[1.327923] (interfaces) StdoutLine: {'line': b'-- Installing: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[1.327972] (interfaces) StdoutLine: {'line': b'-- Installing: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/package.dsv\n'}
+[1.328076] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[1.328357] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake\n'}
+[1.328410] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.328522] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.328571] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.328701] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.328751] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.328877] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[1.328927] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.329049] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake\n'}
+[1.329199] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.329250] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.329389] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.329470] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.329568] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[1.329643] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.329744] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake\n'}
+[1.329836] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.329924] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[1.330007] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.330060] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.330118] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.330173] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.330227] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.330277] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.330314] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[1.330350] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[1.330385] (interfaces) StdoutLine: {'line': b'-- Installing: /home/sami/assignment2-ros2/install/interfaces/share/interfaces/package.xml\n'}
+[1.331714] (interfaces) CommandEnded: {'returncode': 0}
+[1.385766] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[1.386274] (-) EventReactorShutdown: {}

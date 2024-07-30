@@ -1,0 +1,30 @@
+[0.405s] Invoking command in '/home/sami/assignment2-ros2/src/action_service': PYTHONPATH=/home/sami/assignment2-ros2/build/action_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sami/assignment2-ros2/install/action_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/action_service build --build-base /home/sami/assignment2-ros2/build/action_service/build install --record /home/sami/assignment2-ros2/build/action_service/install.log --single-version-externally-managed install_data
+[0.577s] running egg_info
+[0.578s] writing ../../build/action_service/action_service.egg-info/PKG-INFO
+[0.578s] writing dependency_links to ../../build/action_service/action_service.egg-info/dependency_links.txt
+[0.578s] writing entry points to ../../build/action_service/action_service.egg-info/entry_points.txt
+[0.578s] writing requirements to ../../build/action_service/action_service.egg-info/requires.txt
+[0.578s] writing top-level names to ../../build/action_service/action_service.egg-info/top_level.txt
+[0.579s] reading manifest file '../../build/action_service/action_service.egg-info/SOURCES.txt'
+[0.580s] writing manifest file '../../build/action_service/action_service.egg-info/SOURCES.txt'
+[0.580s] running build
+[0.580s] running build_py
+[0.580s] copying action_service/handle_items.py -> /home/sami/assignment2-ros2/build/action_service/build/lib/action_service
+[0.580s] copying action_service/Delivery_Action_Client.py -> /home/sami/assignment2-ros2/build/action_service/build/lib/action_service
+[0.580s] running install
+[0.581s] running install_lib
+[0.581s] copying /home/sami/assignment2-ros2/build/action_service/build/lib/action_service/handle_items.py -> /home/sami/assignment2-ros2/install/action_service/lib/python3.10/site-packages/action_service
+[0.581s] copying /home/sami/assignment2-ros2/build/action_service/build/lib/action_service/Delivery_Action_Client.py -> /home/sami/assignment2-ros2/install/action_service/lib/python3.10/site-packages/action_service
+[0.582s] byte-compiling /home/sami/assignment2-ros2/install/action_service/lib/python3.10/site-packages/action_service/handle_items.py to handle_items.cpython-310.pyc
+[0.582s] byte-compiling /home/sami/assignment2-ros2/install/action_service/lib/python3.10/site-packages/action_service/Delivery_Action_Client.py to Delivery_Action_Client.cpython-310.pyc
+[0.582s] running install_data
+[0.582s] running install_egg_info
+[0.584s] removing '/home/sami/assignment2-ros2/install/action_service/lib/python3.10/site-packages/action_service-0.0.0-py3.10.egg-info' (and everything under it)
+[0.584s] Copying ../../build/action_service/action_service.egg-info to /home/sami/assignment2-ros2/install/action_service/lib/python3.10/site-packages/action_service-0.0.0-py3.10.egg-info
+[0.584s] running install_scripts
+[0.601s] Installing handle_items script to /home/sami/assignment2-ros2/install/action_service/lib/action_service
+[0.601s] Installing item_delivery_action_client script to /home/sami/assignment2-ros2/install/action_service/lib/action_service
+[0.601s] Installing stock_checker_service_client script to /home/sami/assignment2-ros2/install/action_service/lib/action_service
+[0.601s] Installing stock_checker_service_server script to /home/sami/assignment2-ros2/install/action_service/lib/action_service
+[0.602s] writing list of installed files to '/home/sami/assignment2-ros2/build/action_service/install.log'
+[0.625s] Invoked command in '/home/sami/assignment2-ros2/src/action_service' returned '0': PYTHONPATH=/home/sami/assignment2-ros2/build/action_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sami/assignment2-ros2/install/action_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/action_service build --build-base /home/sami/assignment2-ros2/build/action_service/build install --record /home/sami/assignment2-ros2/build/action_service/install.log --single-version-externally-managed install_data

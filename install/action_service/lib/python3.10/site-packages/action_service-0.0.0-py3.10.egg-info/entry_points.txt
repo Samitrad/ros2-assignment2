@@ -1,0 +1,6 @@
+[console_scripts]
+handle_items = action_service.handle_items:main
+item_delivery_action_client = action_service.Delivery_Action_Client:main
+stock_checker_service_client = action_service.Stock_Checker_Client:main
+stock_checker_service_server = action_service.stock_checker:main
+
